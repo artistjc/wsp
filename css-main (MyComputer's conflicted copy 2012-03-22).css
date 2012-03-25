@@ -1,0 +1,42 @@
+/****------Global CSS------*****/
+#wrapper {
+width: 960px;
+margin: 0 auto;
+}
+
+.clear {
+clear: both;
+}
+
+/****------Nav Bar------*****/
+
+nav {
+	width: 360px;
+	height: 39px;
+	display: block;
+	overflow: hidden;
+	}
+	
+nav li {
+	display: block;
+	float: left;
+}
+
+nav li a {
+	display: block;
+	height:39px;
+	text-indent:-9999px;
+}
+
+
+
+#register{left:120px;width:120px;}
+#register{background:url(images/navbar_left.png) -120px 0 no-repeat;}
+#register a:hover{background: url(images/navbar_left.png) -120px 117px;}
+
+#contact{left:240px;width:120px;}
+#contact{background:url(images/navbar_left.png) -240px 0 no-repeat;}
+#contact a:hover{background: url(images/navbar_left.png) -240px 117px;}
+
+
+
